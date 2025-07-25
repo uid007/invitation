@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>You're Invited!</title>
   <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
   <style>
     body {
       background-color: #203337;
@@ -19,9 +22,94 @@
       height: auto;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
+    #guest {
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-size: 8rem;
+      font-weight: bolder;
+      position: absolute;
+      top: 5%;
+      color: #b88456;
+    }
+
+    @media (max-width: 1500px) {
+      #guest{
+        font-size: 7rem;
+      }
+    }
+    @media (max-width: 1300px) {
+      #guest{
+        font-size: 6rem;
+      }
+    }
+    @media (max-width: 1150px) {
+      #guest{
+        font-size: 5rem;
+      }
+    }
+    @media (max-width: 950px) {
+      #guest{
+        font-size: 4rem;
+      }
+    }
+    @media (max-width: 770px) {
+      #guest{
+        font-size: 3.5rem;
+      }
+    }
+    @media (max-width: 670px) {
+      #guest{
+        font-size: 3rem;
+      }
+    }
+    @media (max-width: 570px) {
+      #guest{
+        font-size: 2.7rem;
+      }
+    }
+    @media (max-width: 500px) {
+      #guest{
+        font-size: 2.5rem;
+      }
+    }
+    @media (max-width: 450px) {
+      #guest{
+        font-size: 2.2rem;
+        top: 5.5%;
+      }
+    }
+    @media (max-width: 400px) {
+      #guest {
+          font-size: 2rem;
+          top: 5.5%;
+      }
+    }
+    @media (max-width: 470px) {
+      #guest {
+          font-size: 1.8rem;
+          top: 5.5%;
+      }
+    }
+    @media (max-width: 350px) {
+      #guest {
+          font-size: 1.5rem;
+          top: 6%;
+      }
+    }
   </style>
 </head>
 <body>
-  <img src="invitation.jpg" alt="Invitation" style="width: 100%;height: 100%;margin: 1rem 0;border-radius: 20px;box-shadow: 0 4px 10px rgb(0 0 0);">
+  <div style="position: relative;width: 100%;display: flex;justify-content: center;">
+    <div id="guest">
+      
+    </div>
+    <img src="invitation.jpg" alt="Invitation" style="width: 100%;height: 100%;margin: 1rem 0;border-radius: 20px;box-shadow: 0 4px 10px rgb(0 0 0);">
+  </div>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const guestName = urlParams.get('guest');
+    document.getElementById('guest').innerHTML = guestName;
+  </script>
 </body>
 </html>
