@@ -1349,7 +1349,8 @@
 							data-id="3dda2878" data-element_type="widget" data-e-type="widget"
 							data-widget_type="countdown.default">
 							<div class="elementor-widget-container">
-								<div data-evergreen-interval="172740" class="elementor-countdown-wrapper" data-date="2026-07-03 10:00:00">
+								<div data-evergreen-interval="172740" class="elementor-countdown-wrapper"
+									data-date="2026-07-03 10:00:00">
 									<div class="elementor-countdown-item"><span
 											class="elementor-countdown-digits elementor-countdown-days">00</span> <span
 											class="elementor-countdown-label">Hari</span></div>
@@ -2857,14 +2858,14 @@
 			document.addEventListener("DOMContentLoaded", function () {
 				const wrapper = document.querySelector(".elementor-countdown-wrapper");
 				if (!wrapper) return;
-				
+
 				const dateStr = wrapper.getAttribute("data-date");
 				if (!dateStr) return;
-				
+
 				// Format target date. "2026-07-03 10:00:00" -> Date object with timezone offset (+07:00)
 				const formattedDateStr = dateStr.trim().replace(" ", "T") + "+07:00";
 				const targetDate = new Date(formattedDateStr).getTime();
-				
+
 				if (isNaN(targetDate)) return;
 
 				const daysEl = wrapper.querySelector(".elementor-countdown-digits.elementor-countdown-days");
