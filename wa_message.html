@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Rafi & Murtapiah - WA Message Manager</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+    <!-- CSS Reset & Custom Styling -->
+    <style>
+        :root {
+            --primary: #2D4B3E;
+            --primary-dark: #1D3229;
+            --primary-light: #EAEFE9;
+            --accent: #C5A880;
+            --accent-dark: #B3966F;
+            --bg-champagne: #FAF8F5;
+            --card-bg: #FFFFFF;
+            --text-dark: #333E38;
+            --text-muted: #6B7A72;
+            --border-color: #E5E0D8;
+            --success: #2e7d32;
+            --success-bg: #e8f5e9;
+            --info: #0288d1;
+            --info-bg: #e1f5fe;
+            --warning: #ed6c02;
+            --warning-bg: #fff3e0;
+            --radius-sm: 6px;
+            --radius-md: 12px;
+            --radius-lg: 20px;
+            --shadow: 0 10px 30px rgba(45, 75, 62, 0.04);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-champagne);
+            color: var(--text-dark);
+            line-height: 1.6;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header Branding */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        header .couple-names {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 3.5rem;
+            color: var(--accent);
+            line-height: 1;
+            margin-bottom: 5px;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.02);
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--primary);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        header::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 2px;
+            background: var(--accent);
+            margin: 20px auto 0;
+            opacity: 0.5;
+        }
+
+        /* Dashboard Grid */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        @media (max-width: 992px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Card Component */
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 30px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            box-shadow: 0 15px 35px rgba(45, 75, 62, 0.07);
+        }
+
+        .card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px dashed var(--border-color);
+            padding-bottom: 12px;
+        }
+
+        .card-title svg {
+            color: var(--accent);
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Form Controls */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        @media (max-width: 576px) {
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+        }
+
+        label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        input[type="text"],
+        input[type="url"],
+        textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            color: var(--text-dark);
+            background-color: var(--bg-champagne);
+            transition: var(--transition);
+        }
+
+        input[type="text"]:focus,
+        input[type="url"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+            background-color: #fff;
+            box-shadow: 0 0 0 3px rgba(197, 168, 128, 0.15);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 180px;
+            line-height: 1.5;
+        }
+
+        .help-text {
+            display: block;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 5px;
+        }
+
+        /* Accordion / Collapsible section for Bulk Import */
+        .accordion {
+            margin-top: 25px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            overflow: hidden;
+        }
+
+        .accordion-header {
+            background-color: var(--bg-champagne);
+            padding: 12px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--primary);
+            transition: var(--transition);
+        }
+
+        .accordion-header:hover {
+            background-color: var(--primary-light);
+        }
+
+        .accordion-content {
+            padding: 20px;
+            background-color: var(--card-bg);
+            border-top: 1px solid var(--border-color);
+            display: none;
+        }
+
+        .accordion.open .accordion-content {
+            display: block;
+        }
+
+        .accordion-header svg {
+            transition: var(--transition);
+            width: 16px;
+            height: 16px;
+        }
+
+        .accordion.open .accordion-header svg {
+            transform: rotate(180deg);
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-1px);
+        }
+
+        .btn-accent {
+            background-color: var(--accent);
+            color: #fff;
+        }
+
+        .btn-accent:hover {
+            background-color: var(--accent-dark);
+            transform: translateY(-1px);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-dark);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--bg-champagne);
+            border-color: var(--text-muted);
+        }
+
+        .btn-sm {
+            padding: 8px 16px;
+            font-size: 0.8rem;
+        }
+
+        .btn-danger-outline {
+            background-color: transparent;
+            border: 1px solid rgba(211, 47, 47, 0.3);
+            color: #d32f2f;
+        }
+
+        .btn-danger-outline:hover {
+            background-color: #ffebee;
+            border-color: #d32f2f;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .stat-card {
+            flex: 1;
+            background-color: var(--bg-champagne);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            padding: 12px;
+            text-align: center;
+        }
+
+        .stat-val {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--primary);
+            line-height: 1.2;
+        }
+
+        .stat-lbl {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Guest List Card */
+        .guest-list-card {
+            margin-top: 30px;
+        }
+
+        .guest-list-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .search-wrapper {
+            position: relative;
+            flex: 1;
+            max-width: 350px;
+        }
+
+        .search-wrapper input {
+            padding-left: 40px;
+        }
+
+        .search-wrapper svg {
+            position: absolute;
+            left: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            width: 16px;
+            height: 16px;
+            pointer-events: none;
+        }
+
+        /* Table & Lists */
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            background: #fff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background-color: var(--primary-light);
+            color: var(--primary);
+            font-weight: 600;
+            padding: 14px 20px;
+            border-bottom: 1px solid var(--border-color);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+
+        td {
+            padding: 14px 20px;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: middle;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover td {
+            background-color: var(--bg-champagne);
+        }
+
+        .guest-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .guest-name {
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .guest-phone {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        /* Badges */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 10px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .badge-new {
+            background-color: var(--warning-bg);
+            color: var(--warning);
+            border: 1px solid rgba(237, 108, 2, 0.2);
+        }
+
+        .badge-sent {
+            background-color: var(--success-bg);
+            color: var(--success);
+            border: 1px solid rgba(46, 125, 50, 0.2);
+        }
+
+        .invitation-link-cell {
+            max-width: 250px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-family: monospace;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* Action Buttons in Table */
+        .action-cell {
+            display: flex;
+            gap: 8px;
+            justify-content: flex-end;
+        }
+
+        .btn-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            height: 34px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border-color);
+            background-color: #fff;
+            color: var(--text-dark);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .btn-icon:hover {
+            background-color: var(--primary-light);
+            color: var(--primary);
+            border-color: var(--accent);
+        }
+
+        .btn-icon.btn-icon-send {
+            background-color: var(--success-bg);
+            color: var(--success);
+            border-color: rgba(46, 125, 50, 0.15);
+        }
+
+        .btn-icon.btn-icon-send:hover {
+            background-color: var(--success);
+            color: #fff;
+        }
+
+        .btn-icon.btn-icon-delete:hover {
+            background-color: #ffebee;
+            color: #d32f2f;
+            border-color: rgba(211, 47, 47, 0.2);
+        }
+
+        .btn-icon svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        /* Empty State */
+        .empty-state {
+            padding: 40px;
+            text-align: center;
+            color: var(--text-muted);
+        }
+
+        .empty-state svg {
+            width: 48px;
+            height: 48px;
+            color: var(--border-color);
+            margin-bottom: 15px;
+        }
+
+        /* Toast Notifications */
+        .toast-container {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .toast {
+            background-color: var(--primary);
+            color: #fff;
+            padding: 14px 20px;
+            border-radius: var(--radius-sm);
+            box-shadow: 0 8px 24px rgba(45, 75, 62, 0.15);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.88rem;
+            font-weight: 500;
+            min-width: 280px;
+            max-width: 400px;
+            transform: translateY(20px);
+            opacity: 0;
+            animation: slideIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+            border-left: 4px solid var(--accent);
+        }
+
+        .toast.toast-success {
+            border-left-color: var(--accent);
+        }
+
+        .toast.toast-error {
+            background-color: #d32f2f;
+            border-left-color: #ffebee;
+        }
+
+        .toast-close {
+            margin-left: auto;
+            background: none;
+            border: none;
+            color: rgba(255, 255, 255, 0.7);
+            cursor: pointer;
+            font-size: 1.1rem;
+            line-height: 1;
+            padding: 0 0 0 10px;
+        }
+
+        .toast-close:hover {
+            color: #fff;
+        }
+
+        @keyframes slideIn {
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeOut {
+            to {
+                transform: translateY(10px);
+                opacity: 0;
+            }
+        }
+
+        /* Editor Instructions Card */
+        .instructions-list {
+            margin-top: 12px;
+            padding-left: 20px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .instructions-list li {
+            margin-bottom: 6px;
+        }
+
+        .instructions-list code {
+            background-color: var(--primary-light);
+            color: var(--primary);
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 0.8rem;
+        }
+
+        /* Overlay */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(45, 75, 62, 0.5);
+            backdrop-filter: blur(4px);
+            z-index: 1000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.open {
+            display: flex;
+        }
+
+        .modal {
+            background-color: #fff;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            padding: 30px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .modal-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .modal-body {
+            margin-bottom: 25px;
+            font-size: 0.95rem;
+            color: var(--text-dark);
+        }
+
+        .modal-footer {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <div class="couple-names">Rafi & Murtapiah</div>
+            <h1>Invitation WA Link & Message Manager</h1>
+            <p>Kelola daftar tamu undangan dan hasilkan format pesan WhatsApp personalisasi secara mudah.</p>
+        </header>
+
+        <!-- Dynamic Grid Dashboard -->
+        <div class="dashboard-grid">
+            
+            <!-- Left Side: Config & Template -->
+            <div class="card">
+                <div class="card-title">
+                    <!-- Config Icon -->
+                    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.43l-1.003.828c-.293.241-.438.613-.43.992a7.723 7.723 0 010 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.43l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.28z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                    Pengaturan Undangan
+                </div>
+
+                <div class="form-group">
+                    <label for="baseUrlInput">Base URL Undangan</label>
+                    <input type="url" id="baseUrlInput" placeholder="https://uid007.github.io/invitation" value="">
+                    <span class="help-text">Domain utama undangan Anda. Contoh: <code>https://uid007.github.io/invitation</code>. URL undangan tamu akan ditambahkan parameter <code>?to=Nama+Tamu</code> di belakang URL ini.</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="templateEditor">Draft Pesan WhatsApp</label>
+                    <textarea id="templateEditor" placeholder="Tulis format undangan di sini..."></textarea>
+                    <span class="help-text">Gunakan <code>{{link_undangan}}</code> sebagai placeholder lokasi link undangan.</span>
+                    <ul class="instructions-list">
+                        <li>Gunakan <code>*teks*</code> untuk membuat teks menjadi <b>tebal</b>.</li>
+                        <li>Gunakan <code>_teks_</code> untuk membuat teks menjadi <i>miring</i>.</li>
+                        <li>Gunakan <code>~teks~</code> untuk membuat teks tercoret.</li>
+                    </ul>
+                </div>
+
+                <div class="btn-group" style="margin-top: 15px;">
+                    <button id="btnResetTemplate" class="btn btn-outline btn-sm">Reset ke Wording Awal</button>
+                    <button id="btnSaveConfig" class="btn btn-accent btn-sm">Simpan Template</button>
+                </div>
+            </div>
+
+            <!-- Right Side: Guest Management & Bulk Input -->
+            <div class="card">
+                <div class="card-title">
+                    <!-- User plus Icon -->
+                    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z"></path>
+                    </svg>
+                    Tambah Penerima Undangan
+                </div>
+
+                <!-- Single Guest Form -->
+                <form id="singleGuestForm" onsubmit="event.preventDefault(); addSingleGuest();">
+                    <div class="form-group">
+                        <label for="guestNameInput">Nama Tamu *</label>
+                        <input type="text" id="guestNameInput" placeholder="Contoh: John Doe & Partner" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="guestPhoneInput">No. WhatsApp Tamu <span style="font-weight: normal; color: var(--text-muted);">(Opsional)</span></label>
+                        <input type="text" id="guestPhoneInput" placeholder="Contoh: 628123456789">
+                        <span class="help-text">Awali dengan kode negara tanpa tanda '+', contoh: <code>628123456789</code>. Jika diisi, tombol send akan langsung membuka chat ke nomor tersebut.</span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <!-- Check icon -->
+                        <svg style="width: 18px; height: 18px;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
+                        </svg>
+                        Tambahkan Tamu
+                    </button>
+                </form>
+
+                <!-- Bulk Import Accordion -->
+                <div class="accordion" id="bulkAccordion">
+                    <div class="accordion-header" onclick="toggleAccordion('bulkAccordion')">
+                        <span>Import Banyak Tamu Sekaligus (Bulk Import)</span>
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
+                        </svg>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="form-group">
+                            <label for="bulkNamesInput">Daftar Nama Tamu (Satu Nama per Baris)</label>
+                            <textarea id="bulkNamesInput" placeholder="John Doe & Partner&#10;Keluarga Budi Prasetyo&#10;Siti Rahmawati" style="min-height: 120px;"></textarea>
+                            <span class="help-text">Masukkan daftar nama tamu. Setiap nama pada baris baru akan ditambahkan sebagai tamu baru secara otomatis.</span>
+                        </div>
+                        <button id="btnBulkImport" onclick="importBulkGuests()" class="btn btn-accent btn-sm" style="width: 100%;">
+                            Proses & Import Nama
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Guest List Container -->
+        <div class="card guest-list-card">
+            <div class="card-title" style="margin-bottom: 15px;">
+                <!-- Table Icon -->
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"></path>
+                </svg>
+                Daftar Tamu Undangan
+            </div>
+
+            <!-- Stats & Filter Row -->
+            <div class="guest-list-actions">
+                <div class="stats-bar">
+                    <div class="stat-card">
+                        <div class="stat-val" id="countTotal">0</div>
+                        <div class="stat-lbl">Total Tamu</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-val" id="countSent" style="color: var(--success);">0</div>
+                        <div class="stat-lbl">Terkirim</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-val" id="countPending" style="color: var(--warning);">0</div>
+                        <div class="stat-lbl">Pending</div>
+                    </div>
+                </div>
+
+                <div class="btn-group" style="align-items: center;">
+                    <div class="search-wrapper">
+                        <!-- Search Icon -->
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.604 10.604z"></path>
+                        </svg>
+                        <input type="text" id="searchInput" placeholder="Cari nama tamu..." onkeyup="filterGuests()">
+                    </div>
+                    <button class="btn btn-danger-outline btn-sm" onclick="confirmClearAll()">
+                        Hapus Semua
+                    </button>
+                </div>
+            </div>
+
+            <!-- Responsive Table -->
+            <div class="table-responsive">
+                <table id="guestsTable">
+                    <thead>
+                        <tr>
+                            <th style="width: 25%;">Nama Tamu</th>
+                            <th style="width: 15%; text-align: center;">Status</th>
+                            <th style="width: 35%;">Link Undangan</th>
+                            <th style="width: 25%; text-align: right;">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="guestsTableBody">
+                        <!-- Filled by JS -->
+                    </tbody>
+                </table>
+                <div id="emptyState" class="empty-state" style="display: none;">
+                    <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"></path>
+                    </svg>
+                    <p>Belum ada daftar tamu undangan.</p>
+                    <span style="font-size: 0.8rem; color: var(--text-muted);">Masukkan nama tamu di panel atas untuk memulai.</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Toast container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Confirm Clear Modal -->
+    <div class="modal-overlay" id="clearConfirmModal">
+        <div class="modal">
+            <h3 class="modal-title">Hapus Semua Tamu?</h3>
+            <p class="modal-body">Apakah Anda yakin ingin menghapus seluruh daftar tamu undangan? Tindakan ini bersifat permanen dan tidak dapat dibatalkan.</p>
+            <div class="modal-footer">
+                <button class="btn btn-outline btn-sm" onclick="closeClearModal()">Batal</button>
+                <button class="btn btn-accent btn-sm" style="background-color: #d32f2f;" onclick="clearAllGuests()">Hapus Semua</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Core App Logic -->
+    <script>
+        // Default wording request
+        const DEFAULT_WORDING = `_Assalamu'alaikum Warahmatullaahi Wabarakaatuh_
+
+Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara kami.
+
+In syaa Allah acara akan diselenggarakan pada:
+
+Hari/Tanggal : Jum'at, 3 Juli 2026
+Pukul : 09.00 WIB – selesai
+Lokasi : kp baru rt 003/004 desa gubugan cibeureum kec. Maja
+
+Berikut link undangan kami. Untuk informasi lengkap mengenai acara, silakan kunjungi:
+
+{{link_undangan}}
+
+Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.
+
+Terima kasih atas perhatian dan kehadirannya.
+
+_Wassalamu'alaikum Warahmatullaahi Wabarakaatuh_
+
+Hormat kami,
+Rafi & Murtapiah`;
+
+        // State variables
+        let guests = [];
+        let baseUrl = "";
+        let templateText = "";
+
+        // Elements
+        const baseUrlInput = document.getElementById('baseUrlInput');
+        const templateEditor = document.getElementById('templateEditor');
+        const guestNameInput = document.getElementById('guestNameInput');
+        const guestPhoneInput = document.getElementById('guestPhoneInput');
+        const guestsTableBody = document.getElementById('guestsTableBody');
+        const emptyState = document.getElementById('emptyState');
+        const countTotal = document.getElementById('countTotal');
+        const countSent = document.getElementById('countSent');
+        const countPending = document.getElementById('countPending');
+        const searchInput = document.getElementById('searchInput');
+        const bulkNamesInput = document.getElementById('bulkNamesInput');
+
+        // Initialize App
+        window.addEventListener('DOMContentLoaded', () => {
+            initBaseUrl();
+            loadSettings();
+            loadGuests();
+            renderGuests();
+        });
+
+        // Initialize Base URL based on current file location
+        function initBaseUrl() {
+            if (window.location.protocol === 'file:') {
+                // If loaded as local file, provide default from user prompt
+                baseUrl = "https://uid007.github.io/invitation";
+            } else {
+                // Determine origin and path directory
+                let origin = window.location.origin;
+                let path = window.location.pathname;
+                let dir = path.substring(0, path.lastIndexOf('/'));
+                // Remove trailing slash if exists to stay clean
+                baseUrl = origin + dir;
+            }
+            baseUrlInput.value = baseUrl;
+        }
+
+        // Load template settings from LocalStorage
+        function loadSettings() {
+            const savedBaseUrl = localStorage.getItem('wa_invitation_base_url');
+            if (savedBaseUrl) {
+                baseUrl = savedBaseUrl;
+                baseUrlInput.value = baseUrl;
+            }
+
+            const savedTemplateText = localStorage.getItem('wa_invitation_template');
+            if (savedTemplateText) {
+                templateText = savedTemplateText;
+            } else {
+                templateText = DEFAULT_WORDING;
+            }
+            templateEditor.value = templateText;
+        }
+
+        // Save Config (Base URL & Template text)
+        document.getElementById('btnSaveConfig').addEventListener('click', () => {
+            const newBaseUrl = baseUrlInput.value.trim().replace(/\/$/, ""); // Trim trailing slash
+            const newTemplateText = templateEditor.value;
+
+            if (!newBaseUrl) {
+                showToast("Base URL tidak boleh kosong!", "error");
+                return;
+            }
+
+            baseUrl = newBaseUrl;
+            templateText = newTemplateText;
+
+            localStorage.setItem('wa_invitation_base_url', baseUrl);
+            localStorage.setItem('wa_invitation_template', templateText);
+
+            // Re-render table list because base url changes invitation links
+            renderGuests();
+            showToast("Pengaturan berhasil disimpan!");
+        });
+
+        // Reset Template Wording
+        document.getElementById('btnResetTemplate').addEventListener('click', () => {
+            templateEditor.value = DEFAULT_WORDING;
+            showToast("Formulir draft diset ulang ke kata-kata awal.");
+        });
+
+        // Load Guest list from LocalStorage
+        function loadGuests() {
+            const savedGuests = localStorage.getItem('wa_invitation_guests');
+            if (savedGuests) {
+                try {
+                    guests = JSON.parse(savedGuests);
+                } catch(e) {
+                    guests = [];
+                }
+            } else {
+                // Add default demonstration guests without hardcoding placeholder names
+                guests = [];
+            }
+        }
+
+        // Save Guests to LocalStorage
+        function saveGuests() {
+            localStorage.setItem('wa_invitation_guests', JSON.stringify(guests));
+            updateStats();
+        }
+
+        // Update Statistics Panel
+        function updateStats() {
+            countTotal.textContent = guests.length;
+            countSent.textContent = guests.filter(g => g.status === 'Sent').length;
+            countPending.textContent = guests.filter(g => g.status === 'New').length;
+        }
+
+        // Generate individual guest invitation url
+        function generateGuestLink(guestName) {
+            // Encode the name parameter
+            const encodedName = encodeURIComponent(guestName);
+            return `${baseUrl}?to=${encodedName}`;
+        }
+
+        // Render Guests Table
+        function renderGuests(filteredList = null) {
+            const listToRender = filteredList || guests;
+            
+            // Clean table
+            guestsTableBody.innerHTML = '';
+            
+            if (listToRender.length === 0) {
+                emptyState.style.display = 'block';
+                return;
+            }
+            
+            emptyState.style.display = 'none';
+
+            listToRender.forEach(guest => {
+                const guestLink = generateGuestLink(guest.name);
+                
+                const tr = document.createElement('tr');
+                tr.id = `guest-row-${guest.id}`;
+                
+                // Guest Info
+                const tdInfo = document.createElement('td');
+                tdInfo.innerHTML = `
+                    <div class="guest-info">
+                        <span class="guest-name">${escapeHtml(guest.name)}</span>
+                        ${guest.phone ? `<span class="guest-phone">${escapeHtml(guest.phone)}</span>` : ''}
+                    </div>
+                `;
+                tr.appendChild(tdInfo);
+
+                // Status badge
+                const tdStatus = document.createElement('td');
+                tdStatus.style.textAlign = 'center';
+                const statusClass = guest.status === 'Sent' ? 'badge-sent' : 'badge-new';
+                const statusText = guest.status === 'Sent' ? 'Terkirim' : 'Pending';
+                tdStatus.innerHTML = `<span class="badge ${statusClass}">${statusText}</span>`;
+                tr.appendChild(tdStatus);
+
+                // Link Cell
+                const tdLink = document.createElement('td');
+                tdLink.innerHTML = `
+                    <div class="invitation-link-cell" title="${guestLink}">
+                        ${guestLink}
+                    </div>
+                `;
+                tr.appendChild(tdLink);
+
+                // Actions Cell
+                const tdActions = document.createElement('td');
+                tdActions.className = 'action-cell';
+                
+                // Copy Link Button
+                const btnCopyLink = document.createElement('button');
+                btnCopyLink.className = 'btn-icon';
+                btnCopyLink.title = 'Salin Link Undangan';
+                btnCopyLink.innerHTML = `
+                    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"></path>
+                    </svg>
+                `;
+                btnCopyLink.onclick = () => copyTextToClipboard(guestLink, `Link untuk ${guest.name} disalin!`);
+                tdActions.appendChild(btnCopyLink);
+
+                // Copy Full Message Button
+                const btnCopyMsg = document.createElement('button');
+                btnCopyMsg.className = 'btn-icon';
+                btnCopyMsg.title = 'Salin Seluruh Pesan WA';
+                btnCopyMsg.innerHTML = `
+                    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                `;
+                btnCopyMsg.onclick = () => {
+                    const compiledMsg = compileMessage(guest.name, guestLink);
+                    copyTextToClipboard(compiledMsg, `Pesan WA untuk ${guest.name} disalin!`);
+                };
+                tdActions.appendChild(btnCopyMsg);
+
+                // Send WhatsApp Button
+                const btnSend = document.createElement('button');
+                btnSend.className = 'btn-icon btn-icon-send';
+                btnSend.title = 'Kirim via WhatsApp';
+                btnSend.innerHTML = `
+                    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"></path>
+                    </svg>
+                `;
+                btnSend.onclick = () => sendWhatsAppMessage(guest);
+                tdActions.appendChild(btnSend);
+
+                // Delete Button
+                const btnDelete = document.createElement('button');
+                btnDelete.className = 'btn-icon btn-icon-delete';
+                btnDelete.title = 'Hapus Tamu';
+                btnDelete.innerHTML = `
+                    <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                    </svg>
+                `;
+                btnDelete.onclick = () => deleteGuest(guest.id);
+                tdActions.appendChild(btnDelete);
+
+                tr.appendChild(tdActions);
+                guestsTableBody.appendChild(tr);
+            });
+            
+            updateStats();
+        }
+
+        // Add a Single Guest
+        function addSingleGuest() {
+            const name = guestNameInput.value.trim();
+            let phone = guestPhoneInput.value.trim();
+
+            if (!name) return;
+
+            // Simple phone filter: only digits
+            if (phone) {
+                phone = phone.replace(/\D/g, '');
+            }
+
+            // Check if name already exists
+            const exists = guests.some(g => g.name.toLowerCase() === name.toLowerCase());
+            if (exists) {
+                showToast(`Nama "${name}" sudah ada dalam daftar!`, "error");
+                return;
+            }
+
+            const newGuest = {
+                id: Date.now().toString(),
+                name: name,
+                phone: phone || null,
+                status: 'New',
+                createdAt: new Date().toISOString()
+            };
+
+            guests.unshift(newGuest); // Prepend to show at top
+            saveGuests();
+            renderGuests();
+            
+            // Clear inputs
+            guestNameInput.value = '';
+            guestPhoneInput.value = '';
+            guestNameInput.focus();
+
+            showToast(`Berhasil menambahkan tamu: ${name}`);
+        }
+
+        // Import Bulk Guests
+        function importBulkGuests() {
+            const bulkText = bulkNamesInput.value.trim();
+            if (!bulkText) {
+                showToast("Harap masukkan daftar nama terlebih dahulu!", "error");
+                return;
+            }
+
+            // Split by line
+            const lines = bulkText.split(/\r?\n/);
+            let addedCount = 0;
+            let skipCount = 0;
+
+            lines.forEach((line, index) => {
+                const name = line.trim();
+                if (!name) return;
+
+                // Check duplicate
+                const exists = guests.some(g => g.name.toLowerCase() === name.toLowerCase());
+                if (exists) {
+                    skipCount++;
+                    return;
+                }
+
+                // Add
+                const newGuest = {
+                    id: (Date.now() + index).toString(), // Ensure unique ID even in fast loops
+                    name: name,
+                    phone: null,
+                    status: 'New',
+                    createdAt: new Date().toISOString()
+                };
+
+                guests.unshift(newGuest);
+                addedCount++;
+            });
+
+            if (addedCount > 0) {
+                saveGuests();
+                renderGuests();
+                bulkNamesInput.value = '';
+                // Collapse accordion
+                document.getElementById('bulkAccordion').classList.remove('open');
+                
+                let successMsg = `Berhasil mengimport ${addedCount} tamu!`;
+                if (skipCount > 0) {
+                    successMsg += ` (${skipCount} nama dilewati karena duplikat)`;
+                }
+                showToast(successMsg);
+            } else {
+                showToast("Tidak ada nama baru yang diimport (semua duplikat atau kosong).", "error");
+            }
+        }
+
+        // Delete Guest
+        function deleteGuest(id) {
+            const guestIndex = guests.findIndex(g => g.id === id);
+            if (guestIndex > -1) {
+                const name = guests[guestIndex].name;
+                guests.splice(guestIndex, 1);
+                saveGuests();
+                renderGuests();
+                showToast(`Tamu "${name}" telah dihapus.`);
+            }
+        }
+
+        // Clear all list
+        function confirmClearAll() {
+            if (guests.length === 0) {
+                showToast("Daftar tamu sudah kosong.", "error");
+                return;
+            }
+            document.getElementById('clearConfirmModal').classList.add('open');
+        }
+
+        function closeClearModal() {
+            document.getElementById('clearConfirmModal').classList.remove('open');
+        }
+
+        function clearAllGuests() {
+            guests = [];
+            saveGuests();
+            renderGuests();
+            closeClearModal();
+            showToast("Seluruh daftar tamu berhasil dihapus.");
+        }
+
+        // Filter guest search
+        function filterGuests() {
+            const query = searchInput.value.toLowerCase().trim();
+            if (!query) {
+                renderGuests();
+                return;
+            }
+
+            const filtered = guests.filter(g => 
+                g.name.toLowerCase().includes(query) || 
+                (g.phone && g.phone.includes(query))
+            );
+            
+            renderGuests(filtered);
+        }
+
+        // Toggle Accordion Utility
+        function toggleAccordion(id) {
+            const accordion = document.getElementById(id);
+            accordion.classList.toggle('open');
+        }
+
+        // Replace template placeholders
+        function compileMessage(guestName, guestLink) {
+            // Replaces {{link_undangan}} in the template with guestLink
+            let compiled = templateText.replace(/\{\{link_undangan\}\}/g, guestLink);
+            return compiled;
+        }
+
+        // Send WA message trigger
+        function sendWhatsAppMessage(guest) {
+            const guestLink = generateGuestLink(guest.name);
+            const message = compileMessage(guest.name, guestLink);
+            
+            let waUrl = "";
+            if (guest.phone) {
+                waUrl = `https://api.whatsapp.com/send?phone=${guest.phone}&text=${encodeURIComponent(message)}`;
+            } else {
+                waUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+            }
+
+            // Update status to Sent
+            guest.status = 'Sent';
+            saveGuests();
+            renderGuests();
+
+            // Open in new tab
+            window.open(waUrl, '_blank');
+            showToast(`Mengirim undangan ke ${guest.name} via WhatsApp.`);
+        }
+
+        // Helper: Copy text to clipboard
+        function copyTextToClipboard(text, successMessage) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(() => {
+                    showToast(successMessage);
+                }, (err) => {
+                    fallbackCopyTextToClipboard(text, successMessage);
+                });
+            } else {
+                fallbackCopyTextToClipboard(text, successMessage);
+            }
+        }
+
+        function fallbackCopyTextToClipboard(text, successMessage) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
+            textArea.style.position = "fixed";  // Avoid scrolling to bottom
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+
+            try {
+                const successful = document.execCommand('copy');
+                if (successful) {
+                    showToast(successMessage);
+                } else {
+                    showToast("Gagal menyalin teks.", "error");
+                }
+            } catch (err) {
+                showToast("Tidak dapat menyalin teks. Error: " + err, "error");
+            }
+
+            document.body.removeChild(textArea);
+        }
+
+        // Helper: Toast Notifications
+        function showToast(message, type = "success") {
+            const toastContainer = document.getElementById('toastContainer');
+            
+            const toast = document.createElement('div');
+            toast.className = `toast ${type === 'error' ? 'toast-error' : 'toast-success'}`;
+            
+            // Icon
+            const iconSvg = type === 'error' 
+                ? `<svg style="width:18px;height:18px;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>`
+                : `<svg style="width:18px;height:18px;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>`;
+            
+            toast.innerHTML = `
+                ${iconSvg}
+                <span>${escapeHtml(message)}</span>
+                <button class="toast-close" onclick="this.parentElement.remove()">&times;</button>
+            `;
+            
+            toastContainer.appendChild(toast);
+            
+            // Auto remove after 4.5 seconds
+            setTimeout(() => {
+                toast.style.animation = 'fadeOut 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards';
+                setTimeout(() => {
+                    toast.remove();
+                }, 300);
+            }, 4500);
+        }
+
+        // Helper: Escape HTML characters
+        function escapeHtml(string) {
+            const map = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            };
+            return String(string).replace(/[&<>"']/g, function(m) { return map[m]; });
+        }
+    </script>
+</body>
+</html>
