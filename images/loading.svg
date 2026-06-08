@@ -1,0 +1,1337 @@
+
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homepage | Undangan Website Digital</title>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://undangan.org/" />
+<meta property="og:locale" content="id_ID" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Homepage | Undangan Website Digital" />
+<meta property="og:url" content="https://undangan.org/" />
+<meta property="og:site_name" content="Undangan Website Digital" />
+<meta property="og:updated_time" content="2024-12-28T12:59:48+07:00" />
+<meta property="article:published_time" content="2024-02-04T22:56:42+07:00" />
+<meta property="article:modified_time" content="2024-12-28T12:59:48+07:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Homepage | Undangan Website Digital" />
+<meta name="twitter:label1" content="Ditulis oleh" />
+<meta name="twitter:data1" content="mimin undangan.org" />
+<meta name="twitter:label2" content="Waktunya membaca" />
+<meta name="twitter:data2" content="Kurang dari semenit" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://undangan.org/#person","name":"admin01","logo":{"@type":"ImageObject","@id":"https://undangan.org/#logo","url":"https://undangan.org/wp-content/uploads/2021/12/UNDANGAN.IN_.png","contentUrl":"https://undangan.org/wp-content/uploads/2021/12/UNDANGAN.IN_.png","caption":"Undangan Website Digital","inLanguage":"id","width":"512","height":"512"},"image":{"@type":"ImageObject","@id":"https://undangan.org/#logo","url":"https://undangan.org/wp-content/uploads/2021/12/UNDANGAN.IN_.png","contentUrl":"https://undangan.org/wp-content/uploads/2021/12/UNDANGAN.IN_.png","caption":"Undangan Website Digital","inLanguage":"id","width":"512","height":"512"}},{"@type":"WebSite","@id":"https://undangan.org/#website","url":"https://undangan.org","name":"Undangan Website Digital","publisher":{"@id":"https://undangan.org/#person"},"inLanguage":"id","potentialAction":{"@type":"SearchAction","target":"https://undangan.org/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://undangan.org/#webpage","url":"https://undangan.org/","name":"Homepage | Undangan Website Digital","datePublished":"2024-02-04T22:56:42+07:00","dateModified":"2024-12-28T12:59:48+07:00","about":{"@id":"https://undangan.org/#person"},"isPartOf":{"@id":"https://undangan.org/#website"},"inLanguage":"id"},{"@type":"Person","@id":"https://undangan.org/author/admin01/","name":"mimin undangan.org","url":"https://undangan.org/author/admin01/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/8ef055cc50bc24639e67fd8c111d7b92997727f8680f0941565ae08886f00321?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/8ef055cc50bc24639e67fd8c111d7b92997727f8680f0941565ae08886f00321?s=96&amp;d=mm&amp;r=g","caption":"mimin undangan.org","inLanguage":"id"},"sameAs":["https://undangan.org"]},{"@type":"Article","headline":"Homepage | Undangan Website Digital","datePublished":"2024-02-04T22:56:42+07:00","dateModified":"2024-12-28T12:59:48+07:00","author":{"@id":"https://undangan.org/author/admin01/","name":"mimin undangan.org"},"publisher":{"@id":"https://undangan.org/#person"},"name":"Homepage | Undangan Website Digital","@id":"https://undangan.org/#richSnippet","isPartOf":{"@id":"https://undangan.org/#webpage"},"inLanguage":"id","mainEntityOfPage":{"@id":"https://undangan.org/#webpage"}}]}</script>
+<link rel="canonical" href=""/>
+<link rel="shortcut icon" href="https://files.undangan.org/2024/12/undangan_256.png"/>
+<script type="text/javascript">var defaultThemeMode = "dark"; var themeMode; if ( document.documentElement ) { if ( document.documentElement.hasAttribute("data-theme")) { themeMode = defaultThemeMode; } else { if ( localStorage.getItem("data-theme") !== null ) { themeMode = defaultThemeMode; } else { themeMode = defaultThemeMode; } } if (themeMode === "system") { themeMode = defaultThemeMode; } document.documentElement.setAttribute("data-theme", themeMode); }</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/lib/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/css/v2.css" />
+</head>
+<body data-rsssl=1>
+
+	<div class="loader-mask">
+		<div class="loader">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+
+	<div class="overlay"></div>
+
+	<div class="side-overlay"></div>
+
+	<div class="progress-wrap">
+		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+		</svg>
+	</div>
+
+	<main id="content" class="change-gradient"><div id="mobile" class="mobile-menu d-lg-none d-block">
+
+	<button type="button" class="close-button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="text-danger" style="width: 2.2rem; height: 2.2rem;">
+			<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+			<path d="M12 2l.324 .001l.318 .004l.616 .017l.299 .013l.579 .034l.553 .046c4.785 .464 6.732 2.411 7.196 7.196l.046 .553l.034 .579c.005 .098 .01 .198 .013 .299l.017 .616l.005 .642l-.005 .642l-.017 .616l-.013 .299l-.034 .579l-.046 .553c-.464 4.785 -2.411 6.732 -7.196 7.196l-.553 .046l-.579 .034c-.098 .005 -.198 .01 -.299 .013l-.616 .017l-.642 .005l-.642 -.005l-.616 -.017l-.299 -.013l-.579 -.034l-.553 -.046c-4.785 -.464 -6.732 -2.411 -7.196 -7.196l-.046 -.553l-.034 -.579a28.058 28.058 0 0 1 -.013 -.299l-.017 -.616c-.003 -.21 -.005 -.424 -.005 -.642l.001 -.324l.004 -.318l.017 -.616l.013 -.299l.034 -.579l.046 -.553c.464 -4.785 2.411 -6.732 7.196 -7.196l.553 -.046l.579 -.034c.098 -.005 .198 -.01 .299 -.013l.616 -.017c.21 -.003 .424 -.005 .642 -.005zm-1.489 7.14a1 1 0 0 0 -1.218 1.567l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.497 1.32l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.32 -1.497l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.497 -1.32l-1.293 1.292l-1.293 -1.292l-.094 -.083z" fill="currentColor" stroke-width="0" />
+		</svg>
+	</button>
+
+	<div class="mobile-menu__inner">
+
+		<a href="https://undangan.org/" class="mobile-menu__logo">
+							<img src="https://files.undangan.org/2024/12/logo-356x70-dark.png" class="dark-version" alt="Undangan Website Digital" />
+			
+							<img src="https://files.undangan.org/2024/12/logo-356x70-light.png" class="white-version" alt="Undangan Website Digital" />
+					</a>
+
+		<div class="mobile-menu__menu">
+
+			
+				<ul class="nav-menu flx-align nav-menu--mobile">
+
+					<li class="nav-menu__item">
+						<a href="#content" class="nav-menu__link">Beranda</a>
+					</li>
+
+					
+						<li class="nav-menu__item">
+							<a href="#fitur" class="nav-menu__link">Fitur</a>
+						</li>
+
+					
+					
+						<li class="nav-menu__item">
+							<a href="#cara-kerja" class="nav-menu__link">Cara Kerja</a>
+						</li>
+
+					
+					
+						<li class="nav-menu__item">
+							<a href="#pengguna" class="nav-menu__link">Pengguna</a>
+						</li>
+
+					
+					
+						<li class="nav-menu__item">
+							<a href="#testimoni" class="nav-menu__link">Testimoni</a>
+						</li>
+
+					
+					
+						<li class="nav-menu__item">
+							<a href="#tema" class="nav-menu__link">Tema</a>
+						</li>
+
+					
+					<li class="nav-menu__item">
+						<a href="#harga" class="nav-menu__link">Harga</a>
+					</li>
+
+				</ul>
+
+			
+			<div class="header-right__inner my-3 gap-1 d-flex flx-align">
+
+				
+									<a href="https://undangan.org/auth/login/" class="btn btn-sm btn-success">Masuk</a>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<header id="header" class="header d-flex justify-content-center align-items-center">
+
+	<div class="container container-full">
+
+		<nav class="header-inner flx-between">
+
+			<a href="https://undangan.org/" class="logo">
+									<img src="https://files.undangan.org/2024/12/logo-356x70-dark.png" class="dark-version" alt="Undangan Website Digital" />
+				
+									<img src="https://files.undangan.org/2024/12/logo-356x70-light.png" class="white-version" alt="Undangan Website Digital" />
+							</a>
+
+			
+				<div class="header-menu d-lg-block d-none">
+
+					<ul class="nav-menu flx-align">
+
+						<li class="nav-menu__item">
+							<a href="#content" class="nav-menu__link">Beranda</a>
+						</li>
+
+						
+							<li class="nav-menu__item">
+								<a href="#fitur" class="nav-menu__link">Fitur</a>
+							</li>
+
+						
+						
+							<li class="nav-menu__item">
+								<a href="#cara-kerja" class="nav-menu__link">Cara Kerja</a>
+							</li>
+
+						
+						
+							<li class="nav-menu__item">
+								<a href="#pengguna" class="nav-menu__link">Pengguna</a>
+							</li>
+
+						
+						
+							<li class="nav-menu__item">
+								<a href="#testimoni" class="nav-menu__link">Testimoni</a>
+							</li>
+
+						
+						
+							<li class="nav-menu__item">
+								<a href="#tema" class="nav-menu__link">Tema</a>
+							</li>
+
+						
+						<li class="nav-menu__item">
+							<a href="#harga" class="nav-menu__link">Harga</a>
+						</li>
+
+					</ul>
+
+				</div>
+
+			
+			<div class="header-right flx-align">
+
+				<div class="theme-switch-wrapper position-relative">
+					<label for="checkbox" class="theme-switch">
+						<input type="checkbox" id="checkbox" class="d-none">
+						<span class="text-black header-right__button white-version">
+							<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/icons/sun.svg" alt="" />
+						</span>
+						<span class="text-black header-right__button dark-version">
+							<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/icons/moon.svg" alt="" />
+						</span>
+					</label>
+				</div>
+
+				<div class="header-right__inner gap-2 flx-align d-lg-flex d-none">
+
+					
+											<a href="https://undangan.org/auth/login/" class="btn btn-sm btn-success">Masuk</a>
+					
+				</div>
+
+				<button type="button" class="toggle-mobileMenu d-lg-none" style="margin-left:-5px;">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-dark white-version">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M4 4h6v6h-6z" />
+						<path d="M14 4h6v6h-6z" />
+						<path d="M4 14h6v6h-6z" />
+						<path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white dark-version">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M4 4h6v6h-6z" />
+						<path d="M14 4h6v6h-6z" />
+						<path d="M4 14h6v6h-6z" />
+						<path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+					</svg>
+				</button>
+
+			</div>
+
+		</nav>
+
+	</div>
+
+</header>
+
+<section id="hero" class="banner section-bg overflow-hidden">
+
+	<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/gradients/banner-gradient.webp" class="bg--gradient white-version" alt="" />
+
+	<div class="container container-two">
+
+		<div class="row align-items-center gy-sm-5 gy-4">
+
+			<div class="col-lg-6 order-2 order-lg-1">
+
+				<div class="position-relative text-center text-lg-start">
+
+					<h1 class="mb-3 mb-lg-4">Website Undangan Digital</h1>
+
+					<p class="font-18 mb-4 mb-lg-5">Buat undangan pernikahan dan ulang tahun kamu semakin efisien, efektif, berkesan dan yang pasti Up To Date dengan sentuhan digital.<br />Simple, 15 menit undangan selesai 😉</p>
+
+					<a href="#harga" class="btn btn-primary rounded-pill"><i class="fas fa-chevron-circle-right me-1"></i> Coba Gratis</a>
+
+				</div>
+
+			</div>
+
+			<div class="col-lg-6 order-1 order-lg-2">
+
+				<div class="w-100 ms-lg-5">
+
+					<img src="" class="w-100" alt="" />
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+
+	<section id="tentang" class="banner section-bg padding-y-120 overflow-hidden">
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/pattern-curve-3.webp" class="position-absolute start-0 top-0 z-index--1" alt="" />
+
+		<div class="container container-two px-4">
+
+			<div class="section-content">
+
+				<div class="section-heading mb-0" style="max-width: 850px;">
+
+					<h3 class="section-heading__title">Tentang Undangan Website Digital</h3>
+
+					<p class="section-heading__desc font-18" style="max-width: 850px;">Undangan Website Digital adalah platform undangan digital yang revolusioner, dirancang untuk menyederhanakan dan mempercantik proses pembuatan undangan acara Anda. Dengan fitur-fitur canggih dan antarmuka yang ramah pengguna, Undangan Website Digital memungkinkan Anda untuk membuat undangan yang elegan dan memikat dalam hitungan menit. Dengan manfaat sistem SAAS kami, Anda dapat mengakses platform dari mana saja, kapan saja, tanpa perlu instalasi atau pembaruan yang rumit. Mari bergabung dengan ribuan pengguna yang telah memilihUndangan Website Digital sebagai solusi terbaik untuk mengatur undangan acara mereka dengan cepat, efisien, dan penuh gaya!</p>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+	<section id="fitur" class="banner section-bg padding-y-120 overflow-hidden">
+
+		<div class="container container-two">
+
+			<div class="section-heading">
+
+				<h3 class="section-heading__title mb-0">Fitur Undangan</h3>
+
+			</div>
+
+			<div class="fitur-slider">
+
+				<div class="fitur-item w-100">
+					<span class="fitur-item__icon" style="font-size: 30px;">
+						<i class="fas fa-laptop-code fs-2x" style="color:#A79277;"></i>
+					</span>
+					<h6 class="fitur-item__title font-16">Smart Dashboard</h6>
+				</div>
+
+				<div class="fitur-item w-100">
+					<span class="fitur-item__icon" style="font-size: 30px;">
+						<i class="fas fa-share-square fs-2x" style="color:#51829B;"></i>
+					</span>
+					<h6 class="fitur-item__title font-16">Unlimited Share</h6>
+				</div>
+
+				<div class="fitur-item w-100">
+					<span class="fitur-item__icon" style="font-size: 30px;">
+						<i class="fas fa-user-edit fs-2x" style="color:#D37676;"></i>
+					</span>
+					<h6 class="fitur-item__title font-16">Custom Tamu</h6>
+				</div>
+
+				<div class="fitur-item w-100">
+					<span class="fitur-item__icon" style="font-size: 30px;">
+						<i class="fas fa-music fs-2x" style="color:#AD88C6;"></i>
+					</span>
+					<h6 class="fitur-item__title font-16">Musik Autoplay</h6>
+				</div>
+
+				<div class="fitur-item w-100">
+					<span class="fitur-item__icon" style="font-size: 30px;">
+						<i class="fas fa-photo-video fs-2x" style="color:#9BB8CD;"></i>
+					</span>
+					<h6 class="fitur-item__title font-16">Galeri Foto</h6>
+				</div>
+
+				<div class="fitur-item w-100">
+					<span class="fitur-item__icon" style="font-size: 30px;">
+						<i class="fas fa-history fs-2x" style="color:#9CAFAA;"></i>
+					</span>
+					<h6 class="fitur-item__title font-16">Countdown Timer</h6>
+				</div>
+
+				<div class="fitur-item w-100">
+					<span class="fitur-item__icon" style="font-size: 30px;">
+						<i class="fas fa-gift fs-2x" style="color:#AAD9BB;"></i>
+					</span>
+					<h6 class="fitur-item__title font-16">Amplop Digital</h6>
+				</div>
+
+				<div class="fitur-item w-100">
+					<span class="fitur-item__icon" style="font-size: 30px;">
+						<i class="fas fa-heart fs-2x" style="color:#DC8686;"></i>
+					</span>
+					<h6 class="fitur-item__title font-16">Love Story</h6>
+				</div>
+
+				<div class="fitur-item w-100">
+					<span class="fitur-item__icon" style="font-size: 30px;">
+						<i class="fas fa-video fs-2x" style="color:#B0A695;"></i>
+					</span>
+					<h6 class="fitur-item__title font-16">Live Streaming</h6>
+				</div>
+
+				<div class="fitur-item w-100">
+					<span class="fitur-item__icon" style="font-size: 30px;">
+						<i class="fas fa-comments fs-2x" style="color:#AFC8AD;"></i>
+					</span>
+					<h6 class="fitur-item__title font-16">Kirim Ucapan</h6>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+	<section id="cara-kerja" class="banner section-bg padding-y-120 section-bg">
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/gradients/featured-gradient.webp" class="bg--gradient white-version" alt="" />
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/spider-net.webp" class="position-absolute top-0 start-0 z-index--1 white-version" alt="" />
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/spider-net-white2.webp" class="position-absolute top-0 start-0 z-index--1 dark-version" alt="" />
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/pattern-curve-three.webp" class="position-absolute top-0 end-0 z-index--1" alt="" />
+
+		<div class="container container-two">
+
+			<div class="row gy-4 align-items-center">
+
+				<div class="col-xl-6">
+
+					<div class="section-content">
+
+						<div class="section-heading text-start ms-0">
+
+							<h3 class="section-heading__title">Cara Membuat Undangan Digital</h3>
+
+							<p class="section-heading__desc font-18">3 langkah mudah untuk membuat undangan digital.</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-xl-6">
+
+					<div class="circle-content position-relative">
+
+						<div class="row justify-content-center gy-4 card-wrapper">
+
+							<div class="col-sm-6">
+
+								<div class="cara-card box-shadow h-100">
+
+									<div class="cara-card__thumb d-flex">
+										<a href="#" class="w-100">
+											<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/icons/reg.png" class="cover-img" alt="" />
+										</a>
+									</div>
+
+									<div class="cara-card__content">
+
+										<h6 class="cara-card__title">Pendaftaran</h6>
+
+										<div class="cara-card__info flx-between gap-2">
+											<span class="cara-card__author">Lakukan pendaftaran dan pembayaran melalui virtual account supaya pembayaran di konfirmasi otomatis oleh sistem.</span>
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-sm-6">
+
+								<div class="cara-card box-shadow h-100">
+
+									<div class="cara-card__thumb d-flex">
+										<a href="#" class="w-100">
+											<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/icons/edt.png" class="cover-img" alt="" />
+										</a>
+									</div>
+
+									<div class="cara-card__content">
+
+										<h6 class="cara-card__title">Edit Undangan</h6>
+
+										<div class="cara-card__info flx-between gap-2">
+											<span class="cara-card__author">Setelah pembayaran terkonfirmasi, Anda bisa langsung akses dashboard untuk membuat undangan dengan berbagai template yang tersedia.</span>
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-md-6 col-lg-8">
+
+								<div class="cara-card box-shadow h-100">
+
+									<div class="cara-card__thumb d-flex">
+
+										<a href="#" class="w-100">
+											<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/icons/shr.png" class="cover-img" alt="" />
+										</a>
+
+									</div>
+
+									<div class="cara-card__content">
+
+										<h6 class="cara-card__title">Bagikan</h6>
+
+										<div class="cara-card__info flx-between gap-2">
+											<span class="cara-card__author">Lakukan pendaftaran dan pembayaran melalui virtual account supaya pembayaran di konfirmasi otomatis oleh sistem.</span>
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+	<section id="pengguna" class="banner section-bg overflow-hidden padding-y-120">
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/spider-net.webp" class="position-absolute top-0 end-0 z-index--1 white-version" alt="" />
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/spider-net-white2.webp" class="position-absolute top-0 end-0 z-index--1 dark-version" alt="" />
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/pattern-curve-four.webp" class="position-absolute top-0 start-0 z-index--1" alt="" />
+
+		<div class="container container-two">
+
+			<div class="row gy-4 align-items-center flex-wrap-reverse">
+
+				<div class="col-lg-7 pe-lg-5">
+
+					<div class="position-relative">
+
+						<div class="pengguna-content">
+
+							<div class="pengguna-content__item">
+
+								
+								<span class="pengguna-content__text font-18">Undangan Dibuat</span>
+								<h4 class="pengguna-content__count"><i class="fas fa-mail-bulk"></i> 1254+</h4>
+
+							</div>
+
+							<div class="pengguna-content__item">
+
+								
+								<span class="pengguna-content__text font-18">Pengguna Aktif</span>
+								<h4 class="pengguna-content__count"><i class="fas fa-user-check"></i> 1087+</h4>
+
+							</div>
+
+							<div class="pengguna-content__item">
+
+								
+								<span class="pengguna-content__text font-18">Reseller Aktif</span>
+								<h4 class="pengguna-content__count"><i class="fas fa-users"></i> 0+</h4>
+
+							</div>
+
+							<div class="pengguna-content__item">
+
+								
+								<span class="pengguna-content__text font-18">Total Ucapan</span>
+								<h4 class="pengguna-content__count"><i class="fas fa-comments"></i> 11012+</h4>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-lg-5">
+
+					<div class="section-content">
+
+						<div class="section-heading text-start ms-0">
+
+							<h3 class="section-heading__title">Total Pengguna Aktif</h3>
+
+							<p class="section-heading__desc font-18">Mereka yang sudah memutuskan untuk menggunakan layanan kami.</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+
+
+	<section id="tema" class="banner section-bg z-index-1 overflow-hidden" style="margin-top:-20px;">
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/gradients/featured-gradient.webp" class="bg--gradient white-version" alt="" />
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/spider-net.webp" class="position-absolute top-0 start-0 z-index--1 white-version" alt="" />
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/spider-net-white2.webp" class="position-absolute top-0 start-0 z-index--1 dark-version" alt="" />
+
+		<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/pattern-curve-three.webp" class="position-absolute top-0 end-0 z-index--1" alt="" />
+
+		<div class="container container-two">
+
+			<div class="row align-items-center gy-sm-5 gy-4">
+
+				<div class="col-lg-6">
+
+					<div class="banner-inner position-relative pe-lg-5">
+
+						<div class="banner-content">
+
+							<h3 class="banner-content__title">Tema Terbaru</h3>
+
+							<p class="banner-content__desc font-18">Berbagai tema undangan sudah kami siapakan dengan konsep yang minimalis dan elegan.</p>
+
+							<a href="https://undangan.org/tema-undangan/" class="btn btn-primary rounded-pill mt-4 d-none d-lg-inline-block"><i class="fas fa-chevron-circle-right me-1"></i> Lihat Semua Tema</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-lg-6">
+
+					<div class="tema-slider gy-2">
+
+						
+						
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/premium-05/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/wedding/premium-05.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/premium-05/" class="link">Premium 05</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Pernikahan - Slide</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/premium-04/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/wedding/premium-04.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/premium-04/" class="link">Premium 04</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Pernikahan - Slide</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/premium-03/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/wedding/premium-03.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/premium-03/" class="link">Premium 03</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Pernikahan - Slide</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/premium-02/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/wedding/premium-02.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/premium-02/" class="link">Premium 02</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Pernikahan - Slide</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/premium-01/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/wedding/premium-01.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/premium-01/" class="link">Premium 01</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Pernikahan - Slide</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/khitan-05/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/khitan/k05.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/khitan-05/" class="link">Khitan 05</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Khitan</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/khitan-04/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/khitan/k04.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/khitan-04/" class="link">Khitan 04</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Khitan</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/khitan-03/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/khitan/k03.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/khitan-03/" class="link">Khitan 03</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Khitan</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/khitan-02/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/khitan/k02.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/khitan-02/" class="link">Khitan 02</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Khitan</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/khitan-01/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/khitan/k01.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/khitan-01/" class="link">Khitan 01</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Khitan</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/floral-15/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/wedding/floral-15.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/floral-15/" class="link">Floral 15</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Pernikahan - Slide</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/floral-14/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/wedding/floral-14.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/floral-14/" class="link">Floral 14</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Pernikahan - Slide</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/floral-13/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/wedding/floral-13.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/floral-13/" class="link">Floral 13</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Pernikahan - Slide</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+								
+										<div class="tema-card shadow-sm">
+
+											<div class="tema-card__thumb">
+
+												<a href="https://undangan.org/preview-template/floral-12/" class="link w-100">
+													<img src="https://assets.weddingsaas.id/img/thumbnail/wedding/floral-12.webp" class="cover-img" alt="" />
+												</a>
+
+											</div>
+
+											<div class="tema-card__content">
+
+												<h6 class="tema-card__title">
+													<a href="https://undangan.org/preview-template/floral-12/" class="link">Floral 12</a>
+												</h6>
+
+												<p class="tema-card__cat mb-0">Pernikahan - Slide</p>
+
+											</div>
+
+										</div>
+
+									
+								
+							
+							
+						
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="mt-5 text-center d-block d-lg-none">
+
+				<a href="https://undangan.org/tema-undangan/" class="btn btn-lg btn-primary rounded-pill"><i class="fas fa-chevron-circle-right me-1"></i> Lihat Semua Tema</a>
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+<section id="harga" class="banner section-bg padding-y-120">
+
+	<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/gradients/pricing-gradient-bg.webp" class="bg--gradient" alt="">
+
+	<div class="container container-two">
+
+		<div class="section-heading text-start ms-0">
+
+			<h3 class="section-heading__title">Harga Terbaik Untuk Anda</h3>
+
+			<p class="section-heading__desc mt-0">Pilih paket sesuai dengan kebutuhan dan keinginan anda.</p>
+
+		</div>
+
+		<div class="row gy-4">
+
+			
+			
+				
+					
+					<div class="col-lg-4 col-md-6">
+
+						<div class="pricing-item box-shadow-lg hover-bg-main">
+
+							<div class="pricing-item__top">
+
+								<h5 class="pricing-item__title mb-0">Trial</h5>
+
+							</div>
+
+							<div class="pricing-item__content">
+
+								<h4 class="pricing-item__price mb-0">Gratis<span class="font-14 text-body font-body fw-400 ms-1"></span></h4>
+
+							</div>
+
+							<div class="pricing-item__lists my-4">
+
+								<ul class="text-list">
+
+									<li class="text-list__item text-heading">
+										<span class="icon"><i class="fas fa-check"></i></span>
+										Masa Aktif Akun : 2 Hari									</li>
+
+									<li class="text-list__item text-heading">
+										<span class="icon"><i class="fas fa-check"></i></span>
+										Masa Aktif Undangan : 2 Hari									</li>
+
+									<li class="text-list__item text-heading">
+										<span class="icon"><i class="fas fa-check"></i></span>
+										Kuota Undangan : 1									</li>
+
+								</ul>
+
+							</div>
+
+							<a href="https://undangan.org/checkout/trial" class="btn btn-primary rounded-pill"><i class="fas fa-arrow-alt-circle-right me-1"></i> Pilih Paket</a>
+
+						</div>
+
+					</div>
+
+				
+					
+					<div class="col-lg-4 col-md-6">
+
+						<div class="pricing-item box-shadow-lg hover-bg-main">
+
+							<div class="pricing-item__top">
+
+								<h5 class="pricing-item__title mb-0">Gold</h5>
+
+							</div>
+
+							<div class="pricing-item__content">
+
+								<h4 class="pricing-item__price mb-0">Rp 49.000<span class="font-14 text-body font-body fw-400 ms-1">/Sekali Bayar</span></h4>
+
+							</div>
+
+							<div class="pricing-item__lists my-4">
+
+								<ul class="text-list">
+
+									<li class="text-list__item text-heading">
+										<span class="icon"><i class="fas fa-check"></i></span>
+										Masa Aktif Akun : Selamanya									</li>
+
+									<li class="text-list__item text-heading">
+										<span class="icon"><i class="fas fa-check"></i></span>
+										Masa Aktif Undangan : 6 Bulan									</li>
+
+									<li class="text-list__item text-heading">
+										<span class="icon"><i class="fas fa-check"></i></span>
+										Kuota Undangan : 1									</li>
+
+								</ul>
+
+							</div>
+
+							<a href="https://undangan.org/checkout/gold" class="btn btn-primary rounded-pill"><i class="fas fa-arrow-alt-circle-right me-1"></i> Pilih Paket</a>
+
+						</div>
+
+					</div>
+
+				
+					
+					<div class="col-lg-4 col-md-6">
+
+						<div class="pricing-item box-shadow-lg hover-bg-main">
+
+							<div class="pricing-item__top">
+
+								<h5 class="pricing-item__title mb-0">Platinum</h5>
+
+							</div>
+
+							<div class="pricing-item__content">
+
+								<h4 class="pricing-item__price mb-0">Rp 99.000<span class="font-14 text-body font-body fw-400 ms-1">/Sekali Bayar</span></h4>
+
+							</div>
+
+							<div class="pricing-item__lists my-4">
+
+								<ul class="text-list">
+
+									<li class="text-list__item text-heading">
+										<span class="icon"><i class="fas fa-check"></i></span>
+										Masa Aktif Akun : Selamanya									</li>
+
+									<li class="text-list__item text-heading">
+										<span class="icon"><i class="fas fa-check"></i></span>
+										Masa Aktif Undangan : 1 Tahun									</li>
+
+									<li class="text-list__item text-heading">
+										<span class="icon"><i class="fas fa-check"></i></span>
+										Kuota Undangan : 1									</li>
+
+								</ul>
+
+							</div>
+
+							<a href="https://undangan.org/checkout/platinum" class="btn btn-primary rounded-pill"><i class="fas fa-arrow-alt-circle-right me-1"></i> Pilih Paket</a>
+
+						</div>
+
+					</div>
+
+				
+			
+		</div>
+
+	</div>
+
+</section>
+
+<section id="support" class="banner section-bg padding-y-120">
+
+	<div class="container container-two">
+
+		
+			<div class="seller-item position-relative z-index-1">
+
+				<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/seller-bg.webp" class="position-absolute start-0 top-0 z-index--1" alt="" />
+
+				<h3 class="seller-item__title">Mau punya bisnis Undangan Digital dengan Brand sendiri?</h3>
+
+				<a href="https://undangan.org/reseller/" class="btn btn-primary rounded-pill"><i class="fas fa-arrow-alt-circle-right"></i> Daftar Reseller Sekarang</a>
+
+			</div>
+
+		
+		<div class="support position-relative z-index-1">
+
+			<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/spider-net-sm.webp" class="position-absolute top-0 end-0 z-index--1" alt="" />
+
+			<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/shapes/arrow-shape.webp" class="arrow-support" alt="" />
+
+			<div class="row align-items-center">
+
+				<div class="col-lg-1 d-lg-block d-none"></div>
+
+				<div class="col-lg-3 col-md-4 d-md-block d-none">
+
+					<div class="support-thumb text-center">
+
+						<img src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/img/icons/cs.png" alt="" />
+
+					</div>
+
+				</div>
+
+				<div class="col-lg-3 d-lg-block d-none"></div>
+
+				<div class="col-lg-5 col-md-8">
+
+					<div class="support-content">
+
+						<h3 class="support-content__title mb-3">Support 24/7</h3>
+
+						<p class="support-content__desc">Hubungi kami jika ada yang perlu dibantu</p>
+
+						<a href="https://undangan.org" class="btn btn-success rounded-pill fw-300 pill"><i class="fab fa-whatsapp me-1"></i> Chat Admin</a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+
+	
+
+	<footer id="footer" class="py-4" style="background-color: var(--dark-black-three) !important;">
+
+		<div class="container my-4">
+
+			<div class="row pb-4 border-bottom border-white">
+
+				<div class="col-lg-6 col-md-12 mb-4">
+
+					<h5 class="mb-3 text-white">Tentang Kami</h5>
+
+					<p class="mb-0 text-white opacity-75 font-14">Platform untuk membuat website undangan digital mulai dari pernikahan, ulang tahun, aqiqah dan khitan.</p>
+
+				</div>
+
+				<div class="col-lg-3 col-md-6 mb-4">
+
+					<h5 class="mb-3 text-white">Hubungi Kami</h5>
+
+					<ul class="list-unstyled mb-0">
+
+						
+							<li class="mb-2">
+								<a href="https://wa.me/081220450011" target="_blank" class="d-flex align-items-center text-white">
+									<i class="fab fa-whatsapp font-28 me-3" style="color:#25d366"></i>
+									<span class="font-14 fw-normal"><b>WhatsApp</b><br>081220450011</span>
+								</a>
+							</li>
+
+						
+						
+							<li class="mb-2">
+								<a href="https://www.instagram.com/undangan.org" target="_blank" class="d-flex align-items-center text-white">
+									<i class="fab fa-instagram font-28 me-3" style="color:#c32aa3"></i>
+									<span class="font-14 fw-normal"><b>Instagram</b><br>@undangan.org</span>
+								</a>
+							</li>
+
+						
+						
+							<li class="mb-0">
+								<a href="/cdn-cgi/l/email-protection#5b3a3f3632351b2e353f3a353c3a357534293c" target="_blank" class="d-flex align-items-center text-white">
+									<i class="fas fa-at font-28 me-3"></i>
+									<span class="font-14 fw-normal"><b>Email</b><br><span class="__cf_email__" data-cfemail="38595c555156784d565c59565f595616574a5f">[email&#160;protected]</span></span>
+								</a>
+							</li>
+
+						
+					</ul>
+
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+
+					<h5 class="mb-3 text-white">Jam Kerja</h5>
+
+					<table class="table mb-0 text-white opacity-75" style="border-color: #fff;">
+						<tbody>
+							<tr><td>Senin-Sabtu</td> <td>08.00 s/d 19.00 WIB</td></tr><tr><td>Minggu</td> <td>10.00 s/d 15.00 WIB</td></tr>						</tbody>
+					</table>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="container text-center">
+
+			<div class="font-14 text-white">Copyright © 2024 - undangan.org</div>
+
+		</div>
+
+	</footer>
+
+
+</main>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://assets.weddingsaas.id/js/theme/jquery.min.js"></script>
+<script src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/lib/js/bootstrap.min.js"></script>
+<script src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/lib/js/counterup.min.js"></script>
+<script src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/lib/js/slick.min.js"></script>
+<script src="https://undangan.org/wp-content/themes/weddingsaas-wp/assets/js/v2.js"></script>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0849d6d6da1b5e2',t:'MTc4MDg4NzI5OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
