@@ -1349,7 +1349,7 @@
 							data-id="3dda2878" data-element_type="widget" data-e-type="widget"
 							data-widget_type="countdown.default">
 							<div class="elementor-widget-container">
-								<div data-evergreen-interval="172740" class="elementor-countdown-wrapper" data-date="">
+								<div data-evergreen-interval="172740" class="elementor-countdown-wrapper" data-date="2026-07-03 10:00:00">
 									<div class="elementor-countdown-item"><span
 											class="elementor-countdown-digits elementor-countdown-days">00</span> <span
 											class="elementor-countdown-label">Hari</span></div>
@@ -2851,6 +2851,56 @@
 		class="e-font-icon-svg-symbols" />
 	<script src="./scripts/dialog.js"></script>
 	<script src="./scripts/share-link.js"></script>
+	<script id="custom-countdown-handler">
+		(function () {
+			'use strict';
+			document.addEventListener("DOMContentLoaded", function () {
+				const wrapper = document.querySelector(".elementor-countdown-wrapper");
+				if (!wrapper) return;
+				
+				const dateStr = wrapper.getAttribute("data-date");
+				if (!dateStr) return;
+				
+				// Format target date. "2026-07-03 10:00:00" -> Date object with timezone offset (+07:00)
+				const formattedDateStr = dateStr.trim().replace(" ", "T") + "+07:00";
+				const targetDate = new Date(formattedDateStr).getTime();
+				
+				if (isNaN(targetDate)) return;
+
+				const daysEl = wrapper.querySelector(".elementor-countdown-digits.elementor-countdown-days");
+				const hoursEl = wrapper.querySelector(".elementor-countdown-digits.elementor-countdown-hours");
+				const minutesEl = wrapper.querySelector(".elementor-countdown-digits.elementor-countdown-minutes");
+				const secondsEl = wrapper.querySelector(".elementor-countdown-digits.elementor-countdown-seconds");
+
+				function updateCountdown() {
+					const now = new Date().getTime();
+					const difference = targetDate - now;
+
+					if (difference < 0) {
+						if (daysEl) daysEl.textContent = "00";
+						if (hoursEl) hoursEl.textContent = "00";
+						if (minutesEl) minutesEl.textContent = "00";
+						if (secondsEl) secondsEl.textContent = "00";
+						clearInterval(interval);
+						return;
+					}
+
+					const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+					const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+					const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+					const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+					if (daysEl) daysEl.textContent = String(days).padStart(2, '0');
+					if (hoursEl) hoursEl.textContent = String(hours).padStart(2, '0');
+					if (minutesEl) minutesEl.textContent = String(minutes).padStart(2, '0');
+					if (secondsEl) secondsEl.textContent = String(seconds).padStart(2, '0');
+				}
+
+				updateCountdown();
+				const interval = setInterval(updateCountdown, 1000);
+			});
+		})();
+	</script>
 </body>
 
 </html>
